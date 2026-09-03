@@ -1,2 +1,4 @@
 la session presidente a été spéciale pour les function, aprés detailler en leur santaxe et 
 les diffrentes manieres de les declarer nous avons appliquer cette connaicance pour crée des programme
+yesterady was specially for function , where we study the idea of function how it works and how to create it after that we 
+put our knowledge to practice by built many programs.and for today we will descover another concept in JS which is tables or arrays
