@@ -7,3 +7,4 @@ let user={
 console.log("Le nom : "+user.nom);
 console.log("Le Prenom : "+user.prenom);
 console.log("L\'age : "+user.age);
+console.log(user);
