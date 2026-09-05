@@ -13,7 +13,6 @@ function upper(x){
             case "A":  process.stdout.write("a"); 
             break;
             case "B": process.stdout.write("b");
-
             break;
             case "C": process.stdout.write("c");
             break;
@@ -66,7 +65,6 @@ function upper(x){
             default : process.stdout.write(`${x[i]}`); 
         }
     }
-    
 }
 const pro=require('prompt-sync')();
 var text =pro('Enter un text: ');

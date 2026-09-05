@@ -1,0 +1,19 @@
+the main point that i will discuss in my presentation:
+- what is a sorting algo?
+    A sorting algorithm is a step-by-step procedure used in computer science to rearrange a collection of data (like an array or a list) into a specific, structured order. Most commonly, this means putting numbers in numerical order (e.g., 1 to 10) or text in alphabetical/lexicographical order. [1] Organizing data makes it significantly cleaner for humans to read and allows other software programs—like search tools and databases—to run exponentially faster. 
+- why we use these algo?
+    We use sorting algorithms because computers and humans can process, search, and analyze organized data drastically faster than unstructured data. In computer science, disorder is incredibly expensive; when data is randomized, every downstream operation requires more computational effort. 
+- bubble sort
+    + definition
+    + how does it work ?
+    + exemple
+- seclection sort
+    + definition
+    + how does it work ?
+    + exemple
+- insertion sort
+    + definition
+    + how does it work ?
+    + exemple
+
+    https://www.geeksforgeeks.org/dsa/sorting-algorithms/
