@@ -1,3 +1,4 @@
+//insertion sort
 const t=[45,13,2,8,96,17,23,78];
 console.log(`[${t}]`)
 for(let i=1;i<t.length;i++){

@@ -1,3 +1,4 @@
+//bubble sort
 const t=[45,13,2,8,96,17,23,78];
 console.log(t)
 var d=t.length-2;

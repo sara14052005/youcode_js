@@ -4,7 +4,6 @@ let user={
     prenom:pro(`Entrer votre Prenom: `),
     age:Number(pro(`Entrer votre Age: `))
 }
-console.log("Le nom : "+user.nom);
-console.log("Le Prenom : "+user.prenom);
-console.log("L\'age : "+user.age);
-console.log(user);
+for (const key in user) {
+    console.log(`${key}:${user[key]}`);    
+}
