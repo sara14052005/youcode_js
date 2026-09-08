@@ -2,6 +2,10 @@ let prime = 1;
 const p = require('prompt-sync')();
 let age = Number(p("age de Conducteur : "));
 
+console.log("1.sportive\n2.utilitaire\n3.familiale")
+let voiture=Number(p(`choisez type de voiture: `));
+let nb_acci = p("Nombre d'accident: ");
+
 if(age <25) prime=prime*1.5;
 else{
     if(age >= 25 && age <=65) prime=prime;
@@ -9,8 +13,7 @@ else{
 }
 
 
-let voiture=Number(p(`1.sportive\n2.utilitaire\n3.familiale
-choisez type de voiture: `));
+
 switch (voiture) {
     case 1:prime=prime*2
         break;
@@ -22,7 +25,7 @@ switch (voiture) {
         break;
 }
 
-let nb_acci = p("Nombre d'accident: ");
+
 if(nb_acci>1) prime=prime+1.3;
 
 console.log(prime)  
