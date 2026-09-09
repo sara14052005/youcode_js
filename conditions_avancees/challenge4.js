@@ -15,7 +15,7 @@ else{
 } 
 
 switch(recomp_recue){
-    case 0: console.log(`Aucune bonus.`);
+    case 0: console.log(`Aucun bonus.`);
     break;
     case 1:console.log(`Bonus de 10%.`);
     break;

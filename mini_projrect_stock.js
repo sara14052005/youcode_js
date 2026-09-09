@@ -2,6 +2,7 @@ console.log("################## Gestion de Stock ##################\n")
 var p = require('prompt-sync')();
 var livres=[];
 var i=0;
+
 function ajouter(){
     console.log("\n================Ajouter un Livre==============")
     livres[i]=livre={
@@ -12,6 +13,7 @@ function ajouter(){
         };
     i++;
 }
+
 function afficher(){
     console.log("\n============Les Livres Disponibles============");
     let j=1;

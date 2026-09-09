@@ -1,4 +1,4 @@
-console.log("################## Gestion de Stock ##################\n")
+console.log("################## Gestion de Contacts ##################\n")
 var p = require('prompt-sync')();
 var contacts=[];
 var i=0;
