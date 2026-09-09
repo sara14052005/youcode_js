@@ -55,3 +55,19 @@ console.log(max2); */
     console.log("");
 } */
 
+//##### find a word start and end with same char ####
+//const array=["hate","black","dark","Dead"];
+/*for(let i=0;i<array.length;i++){
+   if(array[i][0].toLowerCase() === array[i][array[i].length - 1].toLowerCase()) console.log(array[i]);
+   else if(array[i][0].toUpperCase() === array[i][array[i].length - 1].toUpperCase()) console.log(array[i]);
+  
+}*/
+//##### compte how many 'a' are there #####
+//const array=["hate","black","dark","Dead"];
+/* let compteur = 0;
+for(let i=0;i<array.length;i++){
+    for(let j=0;j<array[i].length;j++) {
+        if(array[i][j] == 'a' || array[i][j] == 'A') compteur++;
+    }
+}
+console.log(`Le nombre de 'a' est: ${compteur}`); */
